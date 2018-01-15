@@ -32,13 +32,12 @@ public class consoleBasedIO {
         break;
     }
     //Compute the area according to the input specification
-    if (selection == 1) //Radius
-    {
+    //Radius
+    if (selection == 1) {
       System.out.println("Please enter a radius:");
       try {
         str = in.readLine();
-      } catch (IOException e) {
-      }
+      } catch (IOException e) {}
 
       radius = Double.parseDouble(str);
       diameter = radius * 2;
@@ -47,13 +46,12 @@ public class consoleBasedIO {
       System.out.println("Radius = " + radius + "Diameter = " + diameter + "Area = " + area);
     }
 
-    if (selection == 2) //Diameter
-    {
+    //Diameter
+    if (selection == 2) {
       System.out.println("Please enter a diameter:");
       try {
         str = in.readLine();
-      } catch (IOException e) {
-      }
+      } catch (IOException e) {}
 
       diameter = Double.parseDouble(str);
       radius = diameter / 2;
