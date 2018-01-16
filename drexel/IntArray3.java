@@ -1,3 +1,9 @@
+//
+//  IntArray3.java
+//
+//  Created by Jeff Kereakoglow on 9/28/2004.
+//
+
 // File InitArray3.java with more comments, as a guide....
 import javax.swing.*;
 import java.lang.*;
