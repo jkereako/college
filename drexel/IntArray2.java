@@ -1,4 +1,8 @@
-//Create and initialize an arrary
+//
+//  IntArray2.java
+//
+//  Created by Jeff Kereakoglow on 9/28/2004.
+//
 
 public class IntArray2 {
   public static void main(String[] args) {
