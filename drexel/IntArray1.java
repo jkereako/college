@@ -1,3 +1,9 @@
+//
+//  IntArray1.java
+//
+//  Created by Jeff Kereakoglow on 9/28/2004.
+//
+
 //Create and initialize an arrary
 
 public class IntArray1 {
